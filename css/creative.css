@@ -35,7 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
 p {
   font-size: 16px;
@@ -53,7 +54,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 aside {
   padding: 50px 0;
@@ -155,8 +156,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.png');
-  text-align: center;
+  background-image: url('../img/header.png') ;
+  text-align: center; 
   color: white;
 }
 header .header-content {
@@ -281,7 +282,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #37c871;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -392,6 +393,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   padding: 15px 30px;
+  background-color: #37c871;
 }
 ::-moz-selection {
   color: white;
@@ -415,11 +417,29 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+html{
+  font-family: 'Roboto', sans-serif !important;
+}
+
 .logo{
-  max-width: 200px;
+  max-width: 120px;
+  width: 50vw;
 }
 
 .navbar{
-  height: 100px;
+  height: auto;
   background-color: #ffffff;
+}
+
+.nav.navbar-nav.navbar-right li .page-scroll.navbar-btn{
+    color: #37c871;
+}
+
+#homeHeading{
+  text-transform: none;
+}
+
+.fa-dollar{
+  font-size: 6em;
+  padding: 10px;
 }
