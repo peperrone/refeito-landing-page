@@ -443,3 +443,8 @@ html{
   font-size: 6em;
   padding: 10px;
 }
+
+.bg-dark{
+  background: url('/img/moveis-background.jpg');
+  background-size: cover;
+}
